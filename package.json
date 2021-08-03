@@ -1,0 +1,35 @@
+{
+  "name": "umbraci-gulp-case",
+  "version": "0.1.0",
+  "description": "Awesome node modules.",
+  "keywords": [
+    "umbraci-gulp-case",
+    "zce"
+  ],
+  "repository": "umbraci/umbraci-gulp-case",
+  "license": "MIT",
+  "author": "UmbraCi <UmbraCi@qq.com> (https://github.com/UmbraCi)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.3"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
